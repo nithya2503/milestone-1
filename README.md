@@ -9,4 +9,7 @@ Open Git bash and clone Cvat depository from github by-
 " git clone https://github.com/opencv/cvat
 cd cvat "
 Run docker containers - docker-compose up -d
-register a user - winpty docker exec -it cvat_server bash -ic 'python3 ~/manage.py createsuperuser'
+register a user - "winpty docker exec -it cvat_server bash -ic 'python3 ~/manage.py createsuperuser"
+  Create User by Entering username email and password
+  Install Google Chrome browser and go to localhost:8080
+  Begin your annotation !!!!!
